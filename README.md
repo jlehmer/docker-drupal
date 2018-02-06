@@ -7,3 +7,5 @@
   *  Database username: postgres
   *  Database password: example
   *  ADVANCED OPTIONS --> Database host: postgres
+
+Keep in mind that the database setup will persist across container restarts, however, this DB setup step will need to be repeated if the container needs to be created again.
